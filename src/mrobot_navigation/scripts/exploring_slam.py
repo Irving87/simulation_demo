@@ -27,24 +27,22 @@ class NavTest():
                        'PREEMPTING', 'RECALLING', 'RECALLED',  
                        'LOST']  
  
-        # 设置目标点的位置  
-        # 在rviz中点击 2D Nav Goal 按键，然后单击地图中一点  
-        # 在终端中就会看到该点的坐标信息  
+         
         locations = dict()  
 
 
 
-        locations['1'] = Pose(Point(4.000, 5.000, 0.000), Quaternion(0.000, 0.000, 1.000, 0.000))  
-        locations['2'] = Pose(Point(3.000, 5.000, 0.000), Quaternion(0.000, 0.000, 1.000, 0.000))  
-        locations['3'] = Pose(Point(2.000, 5.000, 0.000), Quaternion(0.000, 0.000, 1.000, 0.000))  
-        locations['4'] = Pose(Point(1.000, 5.000, 0.000), Quaternion(0.000, 0.000, 1.000, 0.000))  
-        locations['5'] = Pose(Point(0.000, 5.000, 0.000), Quaternion(0.000, 0.000, 1.000, 0.000))
+        locations['1'] = Pose(Point(0.000, 1.000, 0.000), Quaternion(0.000, 0.000, 1.000, 1.700))  
+        locations['2'] = Pose(Point(1.000, 1.000, 0.000), Quaternion(0.000, 0.000, 1.000, 0.000))  
+        locations['3'] = Pose(Point(1.000, -0.500, 0.000), Quaternion(0.000, 0.000, 1.000, 0.000))  
+        # locations['4'] = Pose(Point(1.000, 5.000, 0.000), Quaternion(0.000, 0.000, 1.000, 0.000))  
+        # locations['5'] = Pose(Point(0.000, 5.000, 0.000), Quaternion(0.000, 0.000, 1.000, 0.000))
 
-        locations['6'] = Pose(Point(0.000, 5.500, 0.000), Quaternion(0.000, 0.000, 1.000, 6.280))
-        locations['7'] = Pose(Point(1.000, 5.500, 0.000), Quaternion(0.000, 0.000, 1.000, 6.280))
-        locations['8'] = Pose(Point(2.000, 5.500, 0.000), Quaternion(0.000, 0.000, 1.000, 6.280))
-        locations['9'] = Pose(Point(3.000, 5.500, 0.000), Quaternion(0.000, 0.000, 1.000, 6.280))
-        locations['10'] = Pose(Point(4.000, 5.500, 0.000), Quaternion(0.000, 0.000, 1.000, 6.280))
+        # locations['6'] = Pose(Point(0.000, 5.500, 0.000), Quaternion(0.000, 0.000, 1.000, 6.280))
+        # locations['7'] = Pose(Point(1.000, 5.500, 0.000), Quaternion(0.000, 0.000, 1.000, 6.280))
+        # locations['8'] = Pose(Point(2.000, 5.500, 0.000), Quaternion(0.000, 0.000, 1.000, 6.280))
+        # locations['9'] = Pose(Point(3.000, 5.500, 0.000), Quaternion(0.000, 0.000, 1.000, 6.280))
+        # locations['10'] = Pose(Point(4.000, 5.500, 0.000), Quaternion(0.000, 0.000, 1.000, 6.280))
 
 
         #locations['1'] = Pose(Point(1.000, 0.000, 0.000), Quaternion(0.000, 0.000, 1.000, 0.000))  
