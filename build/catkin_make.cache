@@ -1,0 +1,2 @@
+makefile_pkg:mrobot_description:mrobot_gazebo:mrobot_navigation:mrobot_teleop:py_tutorials:service_demo:testbot_description:topic_demo
+-DCATKIN_DEVEL_PREFIX=/home/irving/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/irving/catkin_ws/install -G Unix Makefiles

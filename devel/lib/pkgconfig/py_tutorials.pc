@@ -1,0 +1,8 @@
+prefix=/home/irving/catkin_ws/devel
+
+Name: py_tutorials
+Description: Description of py_tutorials
+Version: 0.0.0
+Cflags: -I/home/irving/catkin_ws/devel/include
+Libs: -L/home/irving/catkin_ws/devel/lib 
+Requires: 

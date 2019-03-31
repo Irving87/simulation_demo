@@ -1,0 +1,8 @@
+prefix=/home/irving/catkin_ws/install
+
+Name: makefile_pkg
+Description: Description of makefile_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/irving/catkin_ws/install/lib 
+Requires: message_runtime
