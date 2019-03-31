@@ -1,0 +1,8 @@
+prefix=/home/irving/catkin_ws/devel
+
+Name: cmd_vel_demo
+Description: Description of cmd_vel_demo
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/irving/catkin_ws/devel/lib 
+Requires: geometry_msgs roscpp rospy std_msgs

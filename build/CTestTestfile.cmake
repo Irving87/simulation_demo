@@ -5,6 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs(gtest)
+subdirs(cmd_vel_demo)
 subdirs(makefile_pkg)
 subdirs(mrobot_teleop)
 subdirs(py_tutorials)
